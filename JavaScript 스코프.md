@@ -17,14 +17,13 @@ JavaScript의 스코프는 변수와 함수가 접근 가능하고 존재하는 
 설명: 함수 내부에서 선언된 변수는 해당 함수와 그 하위 함수에서만 접근 가능합니다.
 특징: var 키워드로 선언된 변수는 함수 스코프를 가집니다.
 예시:
-javascript
-Copy code
-function test() {
-    var functionScopedVar = "Accessible within this function";
-    console.log(functionScopedVar); // 접근 가능
-}
-console.log(functionScopedVar); // 접근 불가능 (에러 발생)
-
+ ```javascript
+  Copy code
+  function test() {
+      var functionScopedVar = "Accessible within this function";
+      console.log(functionScopedVar); // 접근 가능
+  }
+  console.log(functionScopedVar); // 접근 불가능 (에러 발생)
 
   
 블록 스코프 (Block Scope)
