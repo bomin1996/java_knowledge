@@ -13,8 +13,8 @@ CORS는 서버가 특정 도메인의 요청만을 허용하기 위해 존재합
 
 ### 예제
 
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST
-Access-Control-Max-Age: 86400
-Access-Control-Allow-Headers: Content-Type
-`*`을 `Access-Control-Allow-Origin`에 설정하면 모든 도메인에 대한 요청을 허용하게 됩니다. 하지만 보안상의 이유로 특정 도메인만을 지정하는 것이 일반적입니다.
+- Access-Control-Allow-Origin: *
+- Access-Control-Allow-Methods: GET, POST
+- Access-Control-Max-Age: 86400
+- Access-Control-Allow-Headers: Content-Type
+- `*`을 `Access-Control-Allow-Origin`에 설정하면 모든 도메인에 대한 요청을 허용하게 됩니다. 하지만 보안상의 이유로 특정 도메인만을 지정하는 것이 일반적입니다.
