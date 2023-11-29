@@ -12,6 +12,7 @@ CORS는 서버가 특정 도메인의 요청만을 허용하기 위해 존재합
 - `Access-Control-Allow-Headers`: 서버가 허용하는 헤더를 지정합니다.
 
 ### 예제
+
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: GET, POST
 Access-Control-Max-Age: 86400
